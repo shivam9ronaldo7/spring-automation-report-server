@@ -1,1 +1,1 @@
-# spring-react-app
+# spring-blog
