@@ -1,1 +1,1 @@
-# spring-blog
+# spring-automation-report-server
