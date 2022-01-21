@@ -1,0 +1,270 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-01T11:05:41.059Z",
+        "line": 7,
+        "name": "Title of your scenario1.1",
+        "description": "",
+        "id": "title-of-your-feature1;title-of-your-scenario1.1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1926300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "stepDefination.TestFeaturesStep.<init>(TestFeaturesStep.java:12)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "some other precondition",
+            "match": {
+              "location": "stepDefination.TestFeaturesStep.<init>(TestFeaturesStep.java:16)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I complete action",
+            "match": {
+              "location": "stepDefination.TestFeaturesStep.<init>(TestFeaturesStep.java:20)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "some other action",
+            "match": {
+              "location": "stepDefination.TestFeaturesStep.<init>(TestFeaturesStep.java:24)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "yet another action",
+            "match": {
+              "location": "stepDefination.TestFeaturesStep.<init>(TestFeaturesStep.java:28)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "stepDefination.TestFeaturesStep.<init>(TestFeaturesStep.java:32)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "check more outcomes",
+            "match": {
+              "location": "stepDefination.TestFeaturesStep.<init>(TestFeaturesStep.java:36)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ttag1"
+          },
+          {
+            "name": "@test1"
+          },
+          {
+            "name": "@ttag1.1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-01T11:05:41.061Z",
+        "line": 24,
+        "name": "Title of your scenario outline1.2",
+        "description": "",
+        "id": "title-of-your-feature1;title-of-your-scenario-outline1.2;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1926300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I want to write a step with name1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefination.TestFeaturesStep.<init>(TestFeaturesStep.java:40)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 301500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I check for the 5 in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefination.TestFeaturesStep.<init>(TestFeaturesStep.java:44)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1205600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify the success in step",
+            "match": {
+              "location": "stepDefination.TestFeaturesStep.<init>(TestFeaturesStep.java:48)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ttag1"
+          },
+          {
+            "name": "@test1"
+          },
+          {
+            "name": "@ttag1.2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-01T11:05:41.061Z",
+        "line": 25,
+        "name": "Title of your scenario outline1.2",
+        "description": "",
+        "id": "title-of-your-feature1;title-of-your-scenario-outline1.2;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1926300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I want to write a step with name2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefination.TestFeaturesStep.<init>(TestFeaturesStep.java:40)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1004600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I check for the 7 in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefination.TestFeaturesStep.<init>(TestFeaturesStep.java:44)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1205600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify the Fail in step",
+            "match": {
+              "location": "stepDefination.TestFeaturesStep.<init>(TestFeaturesStep.java:52)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ttag1"
+          },
+          {
+            "name": "@test1"
+          },
+          {
+            "name": "@ttag1.2"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature1",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/testFeatures/Test%20Feature%201.feature",
+    "tags": [
+      {
+        "name": "@ttag1",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@test1",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 8
+        }
+      }
+    ]
+  }
+]

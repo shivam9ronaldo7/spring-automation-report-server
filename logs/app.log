@@ -1,0 +1,730 @@
+2022-01-21 16:08:17,622 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration boolean -> org.hibernate.type.BooleanType@557ea9de
+2022-01-21 16:08:17,622 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration boolean -> org.hibernate.type.BooleanType@557ea9de
+2022-01-21 16:08:17,622 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@557ea9de
+2022-01-21 16:08:17,622 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@486bd895
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration true_false -> org.hibernate.type.TrueFalseType@4ac90ae
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration yes_no -> org.hibernate.type.YesNoType@1d466663
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration byte -> org.hibernate.type.ByteType@3f3cbff1
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration byte -> org.hibernate.type.ByteType@3f3cbff1
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@3f3cbff1
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration character -> org.hibernate.type.CharacterType@453e915c
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration char -> org.hibernate.type.CharacterType@453e915c
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@453e915c
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration short -> org.hibernate.type.ShortType@2d54bd9c
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration short -> org.hibernate.type.ShortType@2d54bd9c
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2d54bd9c
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration integer -> org.hibernate.type.IntegerType@6897b670
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration int -> org.hibernate.type.IntegerType@6897b670
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6897b670
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration long -> org.hibernate.type.LongType@4b273272
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration long -> org.hibernate.type.LongType@4b273272
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Long -> org.hibernate.type.LongType@4b273272
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration float -> org.hibernate.type.FloatType@324aa471
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration float -> org.hibernate.type.FloatType@324aa471
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@324aa471
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration double -> org.hibernate.type.DoubleType@381952e4
+2022-01-21 16:08:17,638 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration double -> org.hibernate.type.DoubleType@381952e4
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@381952e4
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@491a8c8b
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@491a8c8b
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@38cdd5bb
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@38cdd5bb
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration string -> org.hibernate.type.StringType@783cf37
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.String -> org.hibernate.type.StringType@783cf37
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@273c003b
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2bd2657b
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration url -> org.hibernate.type.UrlType@7b18b059
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.net.URL -> org.hibernate.type.UrlType@7b18b059
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Duration -> org.hibernate.type.DurationType@5875f54d
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@5875f54d
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Instant -> org.hibernate.type.InstantType@22d13c6c
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@22d13c6c
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@2981f03b
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@2981f03b
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@47df58a4
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@47df58a4
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@3afb06fd
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@3afb06fd
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2af07e97
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2af07e97
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@a0537
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@a0537
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@19d5c504
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@19d5c504
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration date -> org.hibernate.type.DateType@789b2e54
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Date -> org.hibernate.type.DateType@789b2e54
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration time -> org.hibernate.type.TimeType@26c6eb6c
+2022-01-21 16:08:17,654 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@26c6eb6c
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration timestamp -> org.hibernate.type.TimestampType@732ccc88
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@732ccc88
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@732ccc88
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@6b875036
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration calendar -> org.hibernate.type.CalendarType@60201878
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@60201878
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@60201878
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@8a73a
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@3e5e5093
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration locale -> org.hibernate.type.LocaleType@1ce9dd00
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1ce9dd00
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration currency -> org.hibernate.type.CurrencyType@d337390
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@d337390
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration timezone -> org.hibernate.type.TimeZoneType@4ef52ccc
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4ef52ccc
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration class -> org.hibernate.type.ClassType@2d39f7d9
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2d39f7d9
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@35cfa30c
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@35cfa30c
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@165393d4
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration binary -> org.hibernate.type.BinaryType@37bff19e
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration byte[] -> org.hibernate.type.BinaryType@37bff19e
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [B -> org.hibernate.type.BinaryType@37bff19e
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@53495fa1
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@53495fa1
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@53495fa1
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration row_version -> org.hibernate.type.RowVersionType@78a2b135
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration image -> org.hibernate.type.ImageType@5c5d7d22
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration characters -> org.hibernate.type.CharArrayType@4c6a78e5
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration char[] -> org.hibernate.type.CharArrayType@4c6a78e5
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [C -> org.hibernate.type.CharArrayType@4c6a78e5
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@5750c37f
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@5750c37f
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@5750c37f
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration text -> org.hibernate.type.TextType@626fed5f
+2022-01-21 16:08:17,669 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration ntext -> org.hibernate.type.NTextType@7dd6be71
+2022-01-21 16:08:17,685 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration blob -> org.hibernate.type.BlobType@5e742433
+2022-01-21 16:08:17,685 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5e742433
+2022-01-21 16:08:17,685 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1a43c3ab
+2022-01-21 16:08:17,685 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration clob -> org.hibernate.type.ClobType@3f87ad31
+2022-01-21 16:08:17,685 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3f87ad31
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration nclob -> org.hibernate.type.NClobType@27fdecc1
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@27fdecc1
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@14677d9b
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@205d87e2
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration serializable -> org.hibernate.type.SerializableType@1ee2f833
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration object -> org.hibernate.type.ObjectType@5d6bb0b7
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@5d6bb0b7
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@79a4551b
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@600c31a7
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@761554a6
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5a97303d
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1c0aaf9
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@40326f
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@5cacf6a5
+2022-01-21 16:08:17,690 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3fd923d5
+2022-01-21 16:08:17,842 DEBUG o.h.t.s.TypeConfiguration$Scope [restartedMain] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7ce61fb1] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@2502304]
+2022-01-21 16:08:18,240 DEBUG o.h.t.s.TypeConfiguration$Scope [restartedMain] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7ce61fb1] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@5784e1a]
+2022-01-21 16:08:18,591 DEBUG o.h.SQL [restartedMain] drop table if exists execution CASCADE 
+2022-01-21 16:08:18,591 DEBUG o.h.SQL [restartedMain] drop table if exists executions_features CASCADE 
+2022-01-21 16:08:18,591 DEBUG o.h.SQL [restartedMain] drop table if exists feature CASCADE 
+2022-01-21 16:08:18,591 DEBUG o.h.SQL [restartedMain] drop table if exists feature_scenario CASCADE 
+2022-01-21 16:08:18,591 DEBUG o.h.SQL [restartedMain] drop table if exists feature_tag CASCADE 
+2022-01-21 16:08:18,591 DEBUG o.h.SQL [restartedMain] drop table if exists scenario CASCADE 
+2022-01-21 16:08:18,591 DEBUG o.h.SQL [restartedMain] drop table if exists scenario_step CASCADE 
+2022-01-21 16:08:18,591 DEBUG o.h.SQL [restartedMain] drop table if exists scenario_tag CASCADE 
+2022-01-21 16:08:18,591 DEBUG o.h.SQL [restartedMain] drop table if exists step CASCADE 
+2022-01-21 16:08:18,591 DEBUG o.h.SQL [restartedMain] drop table if exists tag CASCADE 
+2022-01-21 16:08:18,591 DEBUG o.h.SQL [restartedMain] create table execution (execution_id bigint generated by default as identity, jenkins_build_number bigint, jenkins_execution_start_time varchar(255), started_by_user varchar(255), primary key (execution_id))
+2022-01-21 16:08:18,601 DEBUG o.h.SQL [restartedMain] create table executions_features (execution_id bigint not null, feature_id bigint not null)
+2022-01-21 16:08:18,601 DEBUG o.h.SQL [restartedMain] create table feature (id bigint generated by default as identity, description varchar(255), name varchar(255), uri varchar(255), primary key (id))
+2022-01-21 16:08:18,601 DEBUG o.h.SQL [restartedMain] create table feature_scenario (feature_id bigint not null, scenario_id bigint not null)
+2022-01-21 16:08:18,601 DEBUG o.h.SQL [restartedMain] create table feature_tag (feature_id bigint not null, tag_id bigint not null)
+2022-01-21 16:08:18,601 DEBUG o.h.SQL [restartedMain] create table scenario (id bigint generated by default as identity, description varchar(255), line bigint, name varchar(255), start_time_stamp varchar(255), primary key (id))
+2022-01-21 16:08:18,601 DEBUG o.h.SQL [restartedMain] create table scenario_step (scenario_id bigint not null, step_id bigint not null)
+2022-01-21 16:08:18,601 DEBUG o.h.SQL [restartedMain] create table scenario_tag (scenario_id bigint not null, tag_id bigint not null)
+2022-01-21 16:08:18,601 DEBUG o.h.SQL [restartedMain] create table step (id bigint generated by default as identity, keyword varchar(255), line bigint, name varchar(255), duration bigint not null, status varchar(255), primary key (id))
+2022-01-21 16:08:18,601 DEBUG o.h.SQL [restartedMain] create table tag (id bigint generated by default as identity, name varchar(255), primary key (id))
+2022-01-21 16:08:18,601 DEBUG o.h.SQL [restartedMain] alter table executions_features add constraint FKhko59vidajqia6qh9bbpyofto foreign key (feature_id) references feature
+2022-01-21 16:08:18,601 DEBUG o.h.SQL [restartedMain] alter table executions_features add constraint FKe75eo8g5y4hrx287wjr9v3sbl foreign key (execution_id) references execution
+2022-01-21 16:08:18,601 DEBUG o.h.SQL [restartedMain] alter table feature_scenario add constraint FKgkoo0cfg7prrhr36m6tcditt foreign key (scenario_id) references scenario
+2022-01-21 16:08:18,601 DEBUG o.h.SQL [restartedMain] alter table feature_scenario add constraint FKjlhsxpt4vggj9t42pur850n8n foreign key (feature_id) references feature
+2022-01-21 16:08:18,616 DEBUG o.h.SQL [restartedMain] alter table feature_tag add constraint FKg2cuoy14c2f6yvr91oo33953v foreign key (tag_id) references tag
+2022-01-21 16:08:18,616 DEBUG o.h.SQL [restartedMain] alter table feature_tag add constraint FK4r0bjdnmcikndjic4uh2uysmn foreign key (feature_id) references feature
+2022-01-21 16:08:18,616 DEBUG o.h.SQL [restartedMain] alter table scenario_step add constraint FK819be1p0wrkmv6e5gboqg7aa3 foreign key (step_id) references step
+2022-01-21 16:08:18,616 DEBUG o.h.SQL [restartedMain] alter table scenario_step add constraint FK1qxqihacosfijc996c5dwtsai foreign key (scenario_id) references scenario
+2022-01-21 16:08:18,616 DEBUG o.h.SQL [restartedMain] alter table scenario_tag add constraint FK8o0up3wcsbcelcs7ck7m0cpcy foreign key (tag_id) references tag
+2022-01-21 16:08:18,616 DEBUG o.h.SQL [restartedMain] alter table scenario_tag add constraint FKe4t65rx1klc214qduuxkta4a2 foreign key (scenario_id) references scenario
+2022-01-21 16:08:18,616 TRACE o.h.t.s.TypeConfiguration$Scope [restartedMain] Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@5784e1a] for TypeConfiguration
+2022-01-21 16:08:19,872 DEBUG o.h.SQL [restartedMain] insert into execution (execution_id, jenkins_build_number, jenkins_execution_start_time, started_by_user) values (null, ?, ?, ?)
+2022-01-21 16:08:19,872 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [0]
+2022-01-21 16:08:19,872 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [VARCHAR] - [null]
+2022-01-21 16:08:19,872 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [null]
+2022-01-21 16:08:19,895 DEBUG o.h.SQL [restartedMain] insert into feature (id, description, name, uri) values (null, ?, ?, ?)
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [  I want to use this template for my feature file]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [VARCHAR] - [Title of your feature1]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [file:src/test/resources/testFeatures/Test%20Feature%201.feature]
+2022-01-21 16:08:19,895 DEBUG o.h.SQL [restartedMain] insert into scenario (id, description, line, name, start_time_stamp) values (null, ?, ?, ?, ?)
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - []
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [7]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [Title of your scenario1.1]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [VARCHAR] - [2022-01-01T11:05:41.059Z]
+2022-01-21 16:08:19,895 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [Given ]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [8]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I want to write a step with precondition]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [1926300]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:08:19,895 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [And ]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [9]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [some other precondition]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [0]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:08:19,895 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [When ]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [10]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I complete action]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [0]
+2022-01-21 16:08:19,895 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [And ]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [11]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [some other action]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [0]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [And ]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [12]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [yet another action]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [0]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [Then ]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [13]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I validate the outcomes]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [0]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [And ]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [14]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [check more outcomes]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [0]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@test1]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1.1]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into scenario (id, description, line, name, start_time_stamp) values (null, ?, ?, ?, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - []
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [24]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [Title of your scenario outline1.2]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [VARCHAR] - [2022-01-01T11:05:41.061Z]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [Given ]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [18]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I want to write a step with name1]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [1926300]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [When ]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [19]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I check for the 5 in step]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [301500]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [Then ]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [20]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I verify the success in step]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [1205600]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@test1]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1.2]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into scenario (id, description, line, name, start_time_stamp) values (null, ?, ?, ?, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - []
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [25]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [Title of your scenario outline1.2]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [VARCHAR] - [2022-01-01T11:05:41.061Z]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [Given ]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [18]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I want to write a step with name2]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [1926300]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [When ]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [19]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I check for the 7 in step]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [1004600]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [Then ]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [20]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I verify the Fail in step]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [1205600]
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:08:19,904 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1]
+2022-01-21 16:08:19,904 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:08:19,919 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@test1]
+2022-01-21 16:08:19,919 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:08:19,919 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1.2]
+2022-01-21 16:08:19,919 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:08:19,919 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1]
+2022-01-21 16:08:19,919 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:08:19,919 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@test1]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into executions_features (execution_id, feature_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into feature_scenario (feature_id, scenario_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into feature_scenario (feature_id, scenario_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [2]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into feature_scenario (feature_id, scenario_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [3]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into feature_tag (feature_id, tag_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [10]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into feature_tag (feature_id, tag_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [11]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [2]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [3]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [4]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [5]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [6]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [7]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [2]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [3]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [2]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [8]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [2]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [9]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [2]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [10]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [2]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [4]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [2]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [5]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [2]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [6]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [3]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [11]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [3]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [12]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [3]
+2022-01-21 16:08:19,935 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [13]
+2022-01-21 16:08:19,935 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:08:19,950 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [3]
+2022-01-21 16:08:19,950 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [7]
+2022-01-21 16:08:19,950 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:08:19,950 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [3]
+2022-01-21 16:08:19,950 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [8]
+2022-01-21 16:08:19,950 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:08:19,950 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [3]
+2022-01-21 16:08:19,950 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [9]
+2022-01-21 16:10:24,944 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists execution CASCADE 
+2022-01-21 16:10:24,960 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists executions_features CASCADE 
+2022-01-21 16:10:24,960 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists feature CASCADE 
+2022-01-21 16:10:24,960 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists feature_scenario CASCADE 
+2022-01-21 16:10:24,960 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists feature_tag CASCADE 
+2022-01-21 16:10:24,960 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists scenario CASCADE 
+2022-01-21 16:10:24,960 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists scenario_step CASCADE 
+2022-01-21 16:10:24,960 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists scenario_tag CASCADE 
+2022-01-21 16:10:24,960 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists step CASCADE 
+2022-01-21 16:10:24,960 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists tag CASCADE 
+2022-01-21 16:10:24,960 TRACE o.h.t.s.TypeConfiguration$Scope [SpringApplicationShutdownHook] Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@5784e1a] for TypeConfiguration
+2022-01-21 16:10:24,960 DEBUG o.h.t.s.TypeConfiguration$Scope [SpringApplicationShutdownHook] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@107be47d] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@5784e1a]
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration boolean -> org.hibernate.type.BooleanType@6d77c64
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration boolean -> org.hibernate.type.BooleanType@6d77c64
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6d77c64
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@6fef370
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration true_false -> org.hibernate.type.TrueFalseType@75b53527
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration yes_no -> org.hibernate.type.YesNoType@4ea8b587
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration byte -> org.hibernate.type.ByteType@27469493
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration byte -> org.hibernate.type.ByteType@27469493
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@27469493
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration character -> org.hibernate.type.CharacterType@6aa2dd0f
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration char -> org.hibernate.type.CharacterType@6aa2dd0f
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6aa2dd0f
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration short -> org.hibernate.type.ShortType@71f1434e
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration short -> org.hibernate.type.ShortType@71f1434e
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@71f1434e
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration integer -> org.hibernate.type.IntegerType@6e6d05ca
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration int -> org.hibernate.type.IntegerType@6e6d05ca
+2022-01-21 16:10:30,882 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6e6d05ca
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration long -> org.hibernate.type.LongType@71e5eaa3
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration long -> org.hibernate.type.LongType@71e5eaa3
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Long -> org.hibernate.type.LongType@71e5eaa3
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration float -> org.hibernate.type.FloatType@14daa4ef
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration float -> org.hibernate.type.FloatType@14daa4ef
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@14daa4ef
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration double -> org.hibernate.type.DoubleType@1154ce5
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration double -> org.hibernate.type.DoubleType@1154ce5
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1154ce5
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@279a7245
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@279a7245
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@52d0d5a6
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@52d0d5a6
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration string -> org.hibernate.type.StringType@6c0e34d1
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.String -> org.hibernate.type.StringType@6c0e34d1
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@4bbfaf41
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2338b7c8
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration url -> org.hibernate.type.UrlType@4c24a5bb
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.net.URL -> org.hibernate.type.UrlType@4c24a5bb
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Duration -> org.hibernate.type.DurationType@251bed88
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@251bed88
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Instant -> org.hibernate.type.InstantType@53396783
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@53396783
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@24debe3e
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@24debe3e
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@2bdcb29
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@2bdcb29
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@29c70fd1
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@29c70fd1
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7191309e
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7191309e
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@3bc3a125
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@3bc3a125
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3404d61d
+2022-01-21 16:10:30,898 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3404d61d
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration date -> org.hibernate.type.DateType@e002c2f
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Date -> org.hibernate.type.DateType@e002c2f
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration time -> org.hibernate.type.TimeType@24985f06
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@24985f06
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration timestamp -> org.hibernate.type.TimestampType@520f2f31
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@520f2f31
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@520f2f31
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@7248bed7
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration calendar -> org.hibernate.type.CalendarType@62614318
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@62614318
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@62614318
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5bad1282
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@57470efe
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration locale -> org.hibernate.type.LocaleType@2e38359d
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2e38359d
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration currency -> org.hibernate.type.CurrencyType@20700144
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@20700144
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration timezone -> org.hibernate.type.TimeZoneType@46fae0e7
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@46fae0e7
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration class -> org.hibernate.type.ClassType@27f9a3eb
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@27f9a3eb
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1d14cf5c
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1d14cf5c
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@417f856f
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration binary -> org.hibernate.type.BinaryType@5586164a
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration byte[] -> org.hibernate.type.BinaryType@5586164a
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [B -> org.hibernate.type.BinaryType@5586164a
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@4cc1a8b6
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@4cc1a8b6
+2022-01-21 16:10:30,913 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@4cc1a8b6
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration row_version -> org.hibernate.type.RowVersionType@7be3ed75
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration image -> org.hibernate.type.ImageType@655e8dff
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration characters -> org.hibernate.type.CharArrayType@17839568
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration char[] -> org.hibernate.type.CharArrayType@17839568
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [C -> org.hibernate.type.CharArrayType@17839568
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6625b43a
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6625b43a
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6625b43a
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration text -> org.hibernate.type.TextType@5158e4d3
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration ntext -> org.hibernate.type.NTextType@617b5d7e
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration blob -> org.hibernate.type.BlobType@68d2c3c2
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@68d2c3c2
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6c953736
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration clob -> org.hibernate.type.ClobType@38b038ef
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@38b038ef
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration nclob -> org.hibernate.type.NClobType@346489b4
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@346489b4
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@72e32601
+2022-01-21 16:10:30,929 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@5f376197
+2022-01-21 16:10:30,940 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration serializable -> org.hibernate.type.SerializableType@67b297bf
+2022-01-21 16:10:30,940 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration object -> org.hibernate.type.ObjectType@6383a88c
+2022-01-21 16:10:30,940 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6383a88c
+2022-01-21 16:10:30,940 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@556ad1e
+2022-01-21 16:10:30,940 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5b5196
+2022-01-21 16:10:30,940 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@753b82aa
+2022-01-21 16:10:30,940 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@73bb0faf
+2022-01-21 16:10:30,940 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@43b5729b
+2022-01-21 16:10:30,940 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@19385c9a
+2022-01-21 16:10:30,940 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@30bfb3c5
+2022-01-21 16:10:30,940 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1b52040a
+2022-01-21 16:10:31,040 DEBUG o.h.t.s.TypeConfiguration$Scope [restartedMain] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@791d3f42] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@4f6f8cad]
+2022-01-21 16:10:31,341 DEBUG o.h.t.s.TypeConfiguration$Scope [restartedMain] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@791d3f42] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@5831f36b]
+2022-01-21 16:10:31,698 DEBUG o.h.SQL [restartedMain] drop table if exists execution CASCADE 
+2022-01-21 16:10:31,698 DEBUG o.h.SQL [restartedMain] drop table if exists executions_features CASCADE 
+2022-01-21 16:10:31,698 DEBUG o.h.SQL [restartedMain] drop table if exists feature CASCADE 
+2022-01-21 16:10:31,698 DEBUG o.h.SQL [restartedMain] drop table if exists feature_scenario CASCADE 
+2022-01-21 16:10:31,698 DEBUG o.h.SQL [restartedMain] drop table if exists feature_tag CASCADE 
+2022-01-21 16:10:31,698 DEBUG o.h.SQL [restartedMain] drop table if exists scenario CASCADE 
+2022-01-21 16:10:31,698 DEBUG o.h.SQL [restartedMain] drop table if exists scenario_step CASCADE 
+2022-01-21 16:10:31,698 DEBUG o.h.SQL [restartedMain] drop table if exists scenario_tag CASCADE 
+2022-01-21 16:10:31,698 DEBUG o.h.SQL [restartedMain] drop table if exists step CASCADE 
+2022-01-21 16:10:31,698 DEBUG o.h.SQL [restartedMain] drop table if exists tag CASCADE 
+2022-01-21 16:10:31,713 DEBUG o.h.SQL [restartedMain] create table execution (execution_id bigint generated by default as identity, jenkins_build_number bigint, jenkins_execution_start_time varchar(255), started_by_user varchar(255), primary key (execution_id))
+2022-01-21 16:10:31,713 DEBUG o.h.SQL [restartedMain] create table executions_features (execution_id bigint not null, feature_id bigint not null)
+2022-01-21 16:10:31,713 DEBUG o.h.SQL [restartedMain] create table feature (id bigint generated by default as identity, description varchar(255), name varchar(255), uri varchar(255), primary key (id))
+2022-01-21 16:10:31,713 DEBUG o.h.SQL [restartedMain] create table feature_scenario (feature_id bigint not null, scenario_id bigint not null)
+2022-01-21 16:10:31,713 DEBUG o.h.SQL [restartedMain] create table feature_tag (feature_id bigint not null, tag_id bigint not null)
+2022-01-21 16:10:31,713 DEBUG o.h.SQL [restartedMain] create table scenario (id bigint generated by default as identity, description varchar(255), line bigint, name varchar(255), start_time_stamp varchar(255), primary key (id))
+2022-01-21 16:10:31,713 DEBUG o.h.SQL [restartedMain] create table scenario_step (scenario_id bigint not null, step_id bigint not null)
+2022-01-21 16:10:31,713 DEBUG o.h.SQL [restartedMain] create table scenario_tag (scenario_id bigint not null, tag_id bigint not null)
+2022-01-21 16:10:31,713 DEBUG o.h.SQL [restartedMain] create table step (id bigint generated by default as identity, keyword varchar(255), line bigint, name varchar(255), duration bigint not null, status varchar(255), primary key (id))
+2022-01-21 16:10:31,713 DEBUG o.h.SQL [restartedMain] create table tag (id bigint generated by default as identity, name varchar(255), primary key (id))
+2022-01-21 16:10:31,713 DEBUG o.h.SQL [restartedMain] alter table executions_features add constraint FKhko59vidajqia6qh9bbpyofto foreign key (feature_id) references feature
+2022-01-21 16:10:31,729 DEBUG o.h.SQL [restartedMain] alter table executions_features add constraint FKe75eo8g5y4hrx287wjr9v3sbl foreign key (execution_id) references execution
+2022-01-21 16:10:31,729 DEBUG o.h.SQL [restartedMain] alter table feature_scenario add constraint FKgkoo0cfg7prrhr36m6tcditt foreign key (scenario_id) references scenario
+2022-01-21 16:10:31,729 DEBUG o.h.SQL [restartedMain] alter table feature_scenario add constraint FKjlhsxpt4vggj9t42pur850n8n foreign key (feature_id) references feature
+2022-01-21 16:10:31,729 DEBUG o.h.SQL [restartedMain] alter table feature_tag add constraint FKg2cuoy14c2f6yvr91oo33953v foreign key (tag_id) references tag
+2022-01-21 16:10:31,729 DEBUG o.h.SQL [restartedMain] alter table feature_tag add constraint FK4r0bjdnmcikndjic4uh2uysmn foreign key (feature_id) references feature
+2022-01-21 16:10:31,742 DEBUG o.h.SQL [restartedMain] alter table scenario_step add constraint FK819be1p0wrkmv6e5gboqg7aa3 foreign key (step_id) references step
+2022-01-21 16:10:31,742 DEBUG o.h.SQL [restartedMain] alter table scenario_step add constraint FK1qxqihacosfijc996c5dwtsai foreign key (scenario_id) references scenario
+2022-01-21 16:10:31,745 DEBUG o.h.SQL [restartedMain] alter table scenario_tag add constraint FK8o0up3wcsbcelcs7ck7m0cpcy foreign key (tag_id) references tag
+2022-01-21 16:10:31,745 DEBUG o.h.SQL [restartedMain] alter table scenario_tag add constraint FKe4t65rx1klc214qduuxkta4a2 foreign key (scenario_id) references scenario
+2022-01-21 16:10:31,745 TRACE o.h.t.s.TypeConfiguration$Scope [restartedMain] Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@5831f36b] for TypeConfiguration
+2022-01-21 16:10:32,891 DEBUG o.h.SQL [restartedMain] insert into execution (execution_id, jenkins_build_number, jenkins_execution_start_time, started_by_user) values (null, ?, ?, ?)
+2022-01-21 16:10:32,891 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [0]
+2022-01-21 16:10:32,891 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [VARCHAR] - [null]
+2022-01-21 16:10:32,891 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [null]
+2022-01-21 16:10:32,906 DEBUG o.h.SQL [restartedMain] insert into feature (id, description, name, uri) values (null, ?, ?, ?)
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [  I want to use this template for my feature file]
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [VARCHAR] - [Title of your feature1]
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [file:src/test/resources/testFeatures/Test%20Feature%201.feature]
+2022-01-21 16:10:32,906 DEBUG o.h.SQL [restartedMain] insert into scenario (id, description, line, name, start_time_stamp) values (null, ?, ?, ?, ?)
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - []
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [7]
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [Title of your scenario1.1]
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [VARCHAR] - [2022-01-01T11:05:41.059Z]
+2022-01-21 16:10:32,906 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [Given ]
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [8]
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I want to write a step with precondition]
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [1926300]
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:10:32,906 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [And ]
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [9]
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [some other precondition]
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [0]
+2022-01-21 16:10:32,906 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [When ]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [10]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I complete action]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [0]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [And ]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [11]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [some other action]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [0]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [And ]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [12]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [yet another action]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [0]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [Then ]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [13]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I validate the outcomes]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [0]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [And ]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [14]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [check more outcomes]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [0]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@test1]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1.1]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into scenario (id, description, line, name, start_time_stamp) values (null, ?, ?, ?, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - []
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [24]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [Title of your scenario outline1.2]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [VARCHAR] - [2022-01-01T11:05:41.061Z]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [Given ]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [18]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I want to write a step with name1]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [1926300]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [When ]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [19]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I check for the 5 in step]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [301500]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [Then ]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [20]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I verify the success in step]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [1205600]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@test1]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1.2]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into scenario (id, description, line, name, start_time_stamp) values (null, ?, ?, ?, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - []
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [25]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [Title of your scenario outline1.2]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [VARCHAR] - [2022-01-01T11:05:41.061Z]
+2022-01-21 16:10:32,922 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [Given ]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [18]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I want to write a step with name2]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [1926300]
+2022-01-21 16:10:32,922 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:10:32,938 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [When ]
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [19]
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I check for the 7 in step]
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [1004600]
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:10:32,938 DEBUG o.h.SQL [restartedMain] insert into step (id, keyword, line, name, duration, status) values (null, ?, ?, ?, ?, ?)
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [Then ]
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [20]
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [3] as [VARCHAR] - [I verify the Fail in step]
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [4] as [BIGINT] - [1205600]
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [5] as [VARCHAR] - [passed]
+2022-01-21 16:10:32,938 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1]
+2022-01-21 16:10:32,938 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@test1]
+2022-01-21 16:10:32,938 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1.2]
+2022-01-21 16:10:32,938 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@ttag1]
+2022-01-21 16:10:32,938 DEBUG o.h.SQL [restartedMain] insert into tag (id, name) values (null, ?)
+2022-01-21 16:10:32,938 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [VARCHAR] - [@test1]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into executions_features (execution_id, feature_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into feature_scenario (feature_id, scenario_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into feature_scenario (feature_id, scenario_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [2]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into feature_scenario (feature_id, scenario_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [3]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into feature_tag (feature_id, tag_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [10]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into feature_tag (feature_id, tag_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [11]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [2]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [3]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [4]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [5]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [6]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [7]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [2]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [1]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [3]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [2]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [8]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [2]
+2022-01-21 16:10:32,954 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [9]
+2022-01-21 16:10:32,954 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [2]
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [10]
+2022-01-21 16:10:32,969 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [2]
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [4]
+2022-01-21 16:10:32,969 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [2]
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [5]
+2022-01-21 16:10:32,969 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [2]
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [6]
+2022-01-21 16:10:32,969 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [3]
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [11]
+2022-01-21 16:10:32,969 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [3]
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [12]
+2022-01-21 16:10:32,969 DEBUG o.h.SQL [restartedMain] insert into scenario_step (scenario_id, step_id) values (?, ?)
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [3]
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [13]
+2022-01-21 16:10:32,969 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [3]
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [7]
+2022-01-21 16:10:32,969 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [3]
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [8]
+2022-01-21 16:10:32,969 DEBUG o.h.SQL [restartedMain] insert into scenario_tag (scenario_id, tag_id) values (?, ?)
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [1] as [BIGINT] - [3]
+2022-01-21 16:10:32,969 TRACE o.h.t.d.s.BasicBinder [restartedMain] binding parameter [2] as [BIGINT] - [9]
+2022-01-21 16:13:11,415 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists execution CASCADE 
+2022-01-21 16:13:11,415 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists executions_features CASCADE 
+2022-01-21 16:13:11,415 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists feature CASCADE 
+2022-01-21 16:13:11,415 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists feature_scenario CASCADE 
+2022-01-21 16:13:11,415 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists feature_tag CASCADE 
+2022-01-21 16:13:11,415 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists scenario CASCADE 
+2022-01-21 16:13:11,415 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists scenario_step CASCADE 
+2022-01-21 16:13:11,415 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists scenario_tag CASCADE 
+2022-01-21 16:13:11,415 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists step CASCADE 
+2022-01-21 16:13:11,415 DEBUG o.h.SQL [SpringApplicationShutdownHook] drop table if exists tag CASCADE 
+2022-01-21 16:13:11,415 TRACE o.h.t.s.TypeConfiguration$Scope [SpringApplicationShutdownHook] Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@5831f36b] for TypeConfiguration
+2022-01-21 16:13:11,415 DEBUG o.h.t.s.TypeConfiguration$Scope [SpringApplicationShutdownHook] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@28411dc8] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@5831f36b]
