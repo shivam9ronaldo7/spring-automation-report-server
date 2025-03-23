@@ -1,1 +1,1 @@
-# spring-automation-report-server
+# spring-cucmber-report-server
