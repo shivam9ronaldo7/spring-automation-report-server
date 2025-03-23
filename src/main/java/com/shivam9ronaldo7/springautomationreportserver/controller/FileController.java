@@ -1,9 +1,13 @@
 package com.shivam9ronaldo7.springautomationreportserver.controller;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.shivam9ronaldo7.springautomationreportserver.configuration.FileUploadProperties;
 import com.shivam9ronaldo7.springautomationreportserver.exceptions.EmptyFileException;
 import com.shivam9ronaldo7.springautomationreportserver.exceptions.InvalidFileExtensionException;
+import com.shivam9ronaldo7.springautomationreportserver.model.Execution;
+import com.shivam9ronaldo7.springautomationreportserver.model.Feature;
 import com.shivam9ronaldo7.springautomationreportserver.model.FileResponse;
+import com.shivam9ronaldo7.springautomationreportserver.service.ExecutionsServiceImpl;
 import com.shivam9ronaldo7.springautomationreportserver.service.FileSytemStorageService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -16,6 +20,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
@@ -29,6 +34,9 @@ public class FileController {
 
     @Autowired
     FileSytemStorageService fileSytemStorageService;
+
+    @Autowired
+    ExecutionsServiceImpl executionsServiceImpl;
 
     @PostMapping("/upload")
     public ResponseEntity<FileResponse> uploadSingleFile(@RequestParam("file") MultipartFile file) {
@@ -78,9 +86,21 @@ public class FileController {
         return ResponseEntity.status(HttpStatus.OK).body(files);
     }
 
-    @GetMapping("/processReport/{filename:.+}")
-    public ResponseEntity<String> processReport(@PathVariable String filename) {
-        return ResponseEntity.status(HttpStatus.OK).body(fileSytemStorageService.parseCucumberReport(filename));
+    @GetMapping("/processReport")
+    public ResponseEntity<String> processReport(@RequestParam("filename") String filename,
+                                                @RequestParam("executionStartTime") String executionStartTime,
+                                                @RequestParam("executionBuildNumber") String executionBuildNumber,
+                                                @RequestParam("startedByUser") String startedByUser) throws IOException {
+        LOGGER.debug("Started reading");
+        List<Feature> features = fileSytemStorageService.parseCucumberReport(filename);
+        Execution execution = new Execution();
+        execution.setExecutionStartTime(executionStartTime);
+        execution.setExecutionBuildNumber(Long.valueOf(executionBuildNumber));
+        execution.setStartedByUser(startedByUser);
+        execution.setFeatures(features);
+        executionsServiceImpl.addExecution(execution);
+        LOGGER.debug("Uploading done");
+        return ResponseEntity.status(HttpStatus.OK).body(execution.toString());
     }
 
 }

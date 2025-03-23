@@ -20,10 +20,10 @@ public class Execution {
     private long executionId;
 
     @Column
-    private String jenkinsExecutionStartTime;
+    private String executionStartTime;
 
     @Column
-    private long jenkinsBuildNumber;
+    private long executionBuildNumber;
 
     @Column
     private String startedByUser;

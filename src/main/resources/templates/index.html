@@ -7,18 +7,22 @@
     </head>
     <body>
         <div class="container my-2">
-            <h1>Feature List</h1>
+            <div><h1>Shivam's Test Automation Report Dashboard</h1></div>
             <table border="1" class="table table-striped table-responsive-md">
                 <thead>
-                <tr>
-                    <th>Feature Names</th>
-                </tr>
+                    <tr>
+                        <th>Id</th>
+                        <th>Start Time</th>
+                        <th>Started By</th>
+                        <th>Features</th>
+                    </tr>
                 </thead>
                 <tbody>
-                    <tr th:each="feature : ${listFeatures}">
-                        <td th:text="${feature.uri}"></td>
-                        <td th:text="${feature.name}"></td>
-                        <td th:text="${feature.description}"></td>
+                    <tr th:each="execution : ${listExecutions}">
+                        <td th:text="${execution.executionId}"></td>
+                        <td th:text="${execution.executionStartTime}"></td>
+                        <td th:text="${execution.startedByUser}"></td>
+                        <td><a th:href="@{/__${execution.executionId}__/features}">Features</a></td>
                     </tr>
                 </tbody>
             </table>

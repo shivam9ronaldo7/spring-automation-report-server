@@ -24,7 +24,6 @@ public class Tag {
     @ManyToMany(mappedBy = "tags")
     private List<Scenario> scenarios;
 
-//    @Id
     @JsonProperty("name")
     private String name;
 

@@ -1,6 +1,7 @@
 package com.shivam9ronaldo7.springautomationreportserver.service;
 
 import com.shivam9ronaldo7.springautomationreportserver.exceptions.FileStorageException;
+import com.shivam9ronaldo7.springautomationreportserver.model.Feature;
 import org.springframework.core.io.Resource;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -13,6 +14,6 @@ public interface FileSytemStorageService {
     String saveFile(MultipartFile file);
     Resource loadFile(String fileName);
     List<String> getFiles();
-    String parseCucumberReport(String fileName);
+    List<Feature> parseCucumberReport(String fileName);
 
 }

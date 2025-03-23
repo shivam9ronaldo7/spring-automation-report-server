@@ -48,10 +48,10 @@ class AutomationReportCommandLineRunner implements CommandLineRunner{
 		ObjectMapper mapper = new ObjectMapper();
 		LOGGER.debug("Started reading");
 		List<Feature> features = Arrays.asList(mapper.readValue(new File("D:\\GitRepos\\spring-automation-report-server\\src\\main\\resources\\static\\test.json"), Feature[].class));
-		Execution execution = new Execution();
-		execution.setFeatures(features);
+		Execution execution1 = new Execution();
+		execution1.setFeatures(features);
 		LOGGER.debug("Started uploading");
-		executionsServiceImpl.addExecution(execution);
+		executionsServiceImpl.addExecution(execution1);
 	}
 
 }

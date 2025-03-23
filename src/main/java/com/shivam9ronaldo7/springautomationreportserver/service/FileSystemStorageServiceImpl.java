@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.shivam9ronaldo7.springautomationreportserver.configuration.FileUploadProperties;
 import com.shivam9ronaldo7.springautomationreportserver.exceptions.FileNotFoundException;
 import com.shivam9ronaldo7.springautomationreportserver.exceptions.FileStorageException;
+import com.shivam9ronaldo7.springautomationreportserver.model.Feature;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -87,10 +89,10 @@ public class FileSystemStorageServiceImpl implements FileSytemStorageService {
     }
 
     @Override
-    public String parseCucumberReport(String fileName) {
+    public List<Feature> parseCucumberReport(String fileName) {
         try {
             Path file = this.dirLocation.resolve(fileName).normalize();
-            return new ObjectMapper().readTree(new File(file.toUri())).asText();
+            return Arrays.asList(new ObjectMapper().readValue(new File(file.toString()), Feature[].class));
         } catch (IOException e) {
             throw new FileStorageException("Could not read file!");
         }
